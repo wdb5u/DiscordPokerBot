@@ -1,1 +1,42 @@
+Background - Creating a discord dealer bot seems to be a cool summer project.
 
+Vision of the Solution
+	Vision Statement - To create a discord bot that acts as a dealer for various games one might find at a casino. 
+	
+	Major Features
+		Players can play poker.
+		Players can play blackjack.
+		Players can play roulette.
+		The bot sends players a private message listing the player’s hand and what they can do.
+			Blackjack: player can opt to either hit or stay.
+			Poker: player can opt to call, check, raise, or fold
+		Bot keeps track of player chip count across games
+		Players under a certain chip count will receive more at predetermined time intervals
+		Players can be asked to be called by their server nickname
+		
+	Assumptions and Dependencies
+		Players can join a game at any time and will play the next hand.
+		Players know the rules to the game that they are playing
+		Players can leave a game at anytime.
+		The house will never “run out” of chips 
+		Players will never have a chip value less than 0
+
+Scope and Limitations
+
+	Scope of Initial Release
+		The Initial Release will include the following major features: 
+			Players can start a game of blackjack
+			Players can join a game of blackjack
+			Players can leave a game of blackjack
+			Players that activate the bot are given a predetermined amount of chips
+			Active players will be granted chips regularly
+			
+	Scope of Subsequent Releases
+		Release 2 - Poker is a playable game
+		Release 3 - Roulette is a playable game
+		Release 4 - Social Update
+			Leaderboard/Statistics
+			Chat feature
+			
+Limitations and Exclusions
+	Players cannot play multiple games at once
