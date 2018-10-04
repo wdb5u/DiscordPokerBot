@@ -1,1 +1,30 @@
+Product Functions
+  Text Channel Commands
+    Help - list of commands a user can use is printed to them in the text channel
+    Join casino - user joins the casino and is given a predetermined amount of chips
+    Play “Game” - user can join a table of whatever game he or she prefers. 
+      Poker requires another user to be present at the table. 
+      Blackjack can be played against the dealer bot. 
+    Time-based Chips - user can request the bot for more chips 
+    Chip count - user requests to see all chip counts
+      Pot chip count 
+      Every other player at the table
+  Direct Message Commands
+    Poker
+      Your hand - cards that were dealt to you
+      Check/Call - amount of chips the user puts in the pot from their chip stack
+      Raise/Bet - a valid amount of chips determined by the user is added to the pot from their chip stack
+      Fold
+    BlackJack
+      Your hand
+      Hit
+      Stay
+      Bet
+  Functions performed automatically by bot
+    Shuffle Cards
+    Deal Cards
+    Determine winner of hand (or tie breaking scenarios and corresponding payouts)
+    Keep track of player hands
+    Keep track of player chip count
+    Keep track of pot size
 
