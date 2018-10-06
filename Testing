@@ -1,1 +1,94 @@
+Test Procedures
+
+Format:
+  >Test Procedure
+  Test Description 
+  Expected Result 
+
+Text Channel Commands
+ 
+    >help
+    Command is input into text channel
+    List of commands a user can use is printed to them in the text channel
+
+    >join
+    Command is input into text channel
+    User joins the casino and is given chips
+
+    >playBlackjack
+    Command is input into text channel
+    User joins the table of blackjack and can play the next hand 
+
+    >playPoker
+    Command is input into text channel
+    User joins the table of poker and can play the next hand 
+
+    >daily
+    Command is input into text channel
+    Chips are added to a player’s stack
+
+    >chipCount
+    Command is input into text channel
+    Pot size and Chip counts are printed out to the user
+
+    >leave
+    Command is input into text channel
+    Player leaves table, folding their hand
+
+Direct Message Commands
+  
+  Poker
+
+    >hand
+    Command is input as a direct message to the bot 
+    The user is replied to with their hand
+
+    >check
+    Command is input as a direct message to the bot 
+    The user is able to continue playing the hand without having to put in more chips into the pot (only happens if a bet is not made)
+
+    >call
+    Command is input as a direct message to the bot 
+    If a user has a bet covered, the difference is taken from their chip count and added to the pot. If the user does not have a bet covered, their remaining chips are added to the pot and they go “all in”
+
+    >raise
+    Command is input as a direct message to the bot 
+    Amount user raises is validated and subtracted from their chip count and added to the pot
+
+    >bet
+    Command is input as a direct message to the bot 
+    Amount user bets is validated and subtracted from their chip count and added to the pot
+
+    >fold
+    Command is input as a direct message to the bot 
+    User becomes unable to win the chips in the pot and must wait until the next hand to continue playing
+
+  Blackjack
+  
+    >hand
+    Command is input as a direct message to the bot 
+    The user is replied to with their hand
+
+    >hit
+    Command is input as a direct message to the bot 
+    User is dealt another card
+
+    >stay
+    Command is input as a direct message to the bot 
+    User will not be dealt anymore cards until 
+
+    >bet
+    Command is input as a direct message to the bot 
+
+Automatic Functions
+  
+  Shuffle Cards
+  Deal Cards
+  Determine winner of hand 
+  Keep track of player hands
+  Keep track of player chip count
+  Keep track of pot size
+
+  
+
 
